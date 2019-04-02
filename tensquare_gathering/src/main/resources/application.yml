@@ -1,0 +1,15 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: tensquare-gathering #指定服务名
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://111.230.32.207:3307/tensquare_gathering?characterEncoding=UTF8
+    username: root
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+  redis:
+    host: 111.230.32.207

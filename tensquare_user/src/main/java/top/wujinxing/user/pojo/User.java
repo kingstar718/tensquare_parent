@@ -1,9 +1,10 @@
 package top.wujinxing.user.pojo;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
@@ -18,8 +19,8 @@ import java.io.Serializable;
 public class User implements Serializable {
     @Id
     private String id;//ID
-    private String password;//密码
     private String mobile;//手机号码
+    private String password;//密码
     private String nickname;//昵称
     private String sex;//性别
     private java.util.Date birthday;//出生年月日

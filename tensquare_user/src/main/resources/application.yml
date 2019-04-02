@@ -1,20 +1,18 @@
 server:
-  port: 9004    # 指定端口
+  port: 9008    # 指定端口
 
 spring:
   application:
     name: tensquare-qa   # 模块名
   datasource:   # 配置数据源
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://111.230.32.207:3307/tensquare_article?characterEncoding=utf-8
+    url: jdbc:mysql://111.230.32.207:3307/tensquare_user?characterEncoding=utf-8
     username: root
     password: 123456
   jpa:      # 配置jpa
     database: mysql
     show-sql: true
   redis:
-      host: 111.230.32.207
-  data:
-      mongodb:
-        host: 111.230.32.207
-        database: recruitdb
+    host: 111.230.32.207
+  rabbitmq:
+    host: 111.230.32.207

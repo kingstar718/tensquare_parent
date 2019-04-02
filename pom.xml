@@ -10,8 +10,13 @@
         <module>tensquare_base</module>
         <module>tensquare_recruit</module>
         <module>tensquare_qa</module>
-        <module>tensquare_qa</module>
         <module>tensquare_article</module>
+        <module>tensquare_gathering</module>
+        <module>tensquare_spit</module>
+        <module>tensquare_search</module>
+        <module>rabbitmq_demo</module>
+        <module>tensquare_user</module>
+        <module>tensquare_sms</module>
     </modules>
 
     <groupId>top.wujinxing</groupId>

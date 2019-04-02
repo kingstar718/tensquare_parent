@@ -1,0 +1,3 @@
+spring:
+  rabbitmq:
+    host: 111.230.32.207
